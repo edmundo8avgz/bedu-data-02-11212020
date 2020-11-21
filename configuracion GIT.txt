@@ -7,4 +7,54 @@ git version 2.29.2.windows.2
 C:\Users\JACOBEDO\Desktop\DataScientist\Python\bedu-data-11212020>git init
 Initialized empty Git repository in C:/Users/JACOBEDO/Desktop/DataScientist/Python/bedu-data-11212020/.git/
 
-C:\Users\JACOBEDO\Desktop\DataScientist\Python\bedu-data-11212020>
+
+agregamos servidor de repositorio remoto llamada "origin" (por convencion siempre trae origin) esto lo trajimos de la pagina de git donde hicimos el nuevo repositorio
+git remote add origin https://github.com/edmundo8avgz/bedu-data-02-11212020.git
+ 
+git status para verl es status
+
+ahora iniciamos cambio en git
+git add .   Preparas para registrar un cambio
+git commit -m "Initial commit"    registras cambio
+git branch -M main  
+git status 
+git push -u origin main
+
+
+
+##########errores y wa
+si sale please tell me who you are 
+corre los pasos de agregar tu usuario de git
+
+* Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sumy2@LAPTOP-6VFK1ISK.(none)')
+
+C:\Users\sumy2\OneDrive\Escritorio\Curses\pythonYo\PracticaPython>git config --global user.email "anaochoav@gmail.com"
+
+C:\Users\sumy2\OneDrive\Escritorio\Curses\pythonYo\PracticaPython>git config --global user.name "Analhy"
+
+C:\Users\sumy2\OneDrive\Escritorio\Curses\pythonYo\PracticaPython>git commit -m "Initial"
+[master (root-commit) f3fe805] Initial
+ 1 file changed, 4 insertions(+)
+ create mode 100644 README.md
+
+C:\Users\sumy2\OneDrive\Escritorio\Curses\pythonYo\PracticaPython>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 264 bytes | 264.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sumy2776/python.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
