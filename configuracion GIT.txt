@@ -1,0 +1,10 @@
+instalamos git
+despues dimos 
+
+C:\Users\JACOBEDO\Desktop\DataScientist\Python\bedu-data-11212020>git --version
+git version 2.29.2.windows.2
+
+C:\Users\JACOBEDO\Desktop\DataScientist\Python\bedu-data-11212020>git init
+Initialized empty Git repository in C:/Users/JACOBEDO/Desktop/DataScientist/Python/bedu-data-11212020/.git/
+
+C:\Users\JACOBEDO\Desktop\DataScientist\Python\bedu-data-11212020>
