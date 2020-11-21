@@ -58,3 +58,31 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/sumy2776/python.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+
+
+######################################################### para subir o hacer push a git####################################33
+
+
+C:\Users\JACOBEDO\Desktop\DataScientist\Python\bedu-data-11212020>git add .
+C:\Users\JACOBEDO\Desktop\DataScientist\Python\bedu-data-11212020>git commit -m "agrego archivo para explicar listas"
+[main 8aa32fc] agrego archivo para explicar listas
+ 2 files changed, 67 insertions(+), 1 deletion(-)
+ create mode 100644 01_listas.py
+C:\Users\JACOBEDO\Desktop\DataScientist\Python\bedu-data-11212020>git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.51 KiB | 67.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/edmundo8avgz/bedu-data-02-11212020.git
+   fc12047..8aa32fc  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
+
+########################correr codigo 
+
+>python 02_funcion_range.py
